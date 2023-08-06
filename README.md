@@ -1,4 +1,4 @@
-# scapper_for_mrshabanali.com
+# scrapper_for_mrshabanali.com
 
 <div style="margin-bottom: 20px;">
     <a href="https://mrshabanali.com">
@@ -6,7 +6,9 @@
     </a>
 </div>
 <br>
-This project contains a collection of Python scripts for scraping data from the <a href=mrshabanali.com>mrshabanali.com</a>. The script crawls the website, extracts each post's data, and finally stores it in PDF format for you.
+Scrapper_for_mrshabanali.com is a Python project designed to facilitate web scraping of data from the popular website, <a href=mrshabanali.com>mrshabanali.com</a>. With this collection of Python scripts, users can extract valuable information from the website, including post links, metadata, and content. The project consists of two main components: the LinkCrawler and the DataCrawler.
+
+The LinkCrawler efficiently navigates through the website, extracting all post links and storing them in a convenient JSON file. This feature enables users to gather a comprehensive list of relevant URLs for further analysis or data mining. On the other hand, the DataCrawler dives deeper into the website, scraping post content and metadata such as post titles, release dates, and categories. The extracted data is then thoughtfully organized and converted into PDF format for easy access and reference. A comprehensive logging mechanism is integrated into the project, allowing users to monitor and troubleshoot the application's execution flow effectively.
 
 # Table Of Content
 - [Features](#features)
