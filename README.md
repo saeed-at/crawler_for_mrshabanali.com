@@ -163,3 +163,4 @@ The `template_html_code.html` code is as follows:
     
         
 ```
+<a id="back-to-top" href="#">&#9650;</a>
