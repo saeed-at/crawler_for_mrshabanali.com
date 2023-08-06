@@ -1,4 +1,4 @@
-# pyscapper_for_mrshabanali.com
+# scapper_for_mrshabanali.com
 
 <div style="margin-bottom: 20px;">
     <a href="https://mrshabanali.com">
