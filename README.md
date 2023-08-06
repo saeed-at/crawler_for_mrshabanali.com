@@ -32,7 +32,7 @@ The LinkCrawler efficiently navigates through the website, extracting all post l
 </div>
 <br>
 
-[Back to Table of Contents](#table-of-contents)
+<a href="#">&#9650;Back</a>
 
 # Requirements
 Ensure you have the required libraries installed by running the following command:
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 **Note**:To convert HTML to PDF, download and install PrinceXML from the official website for your operating system.
 
-[Back to Table of Contents](#table-of-contents)
+<a href="#">&#9650;Back</a>
 
 # Configuration
 Before running the scripts, you need to configure the config.py file to match your settings:
@@ -51,7 +51,7 @@ Before running the scripts, you need to configure the config.py file to match yo
 - `HTML_OUTPUT_CODES`: Set the storing path for generated HTML codes for each URL.
 - `PDF_DIR`: Set the storing path to save PDF files for each URL.
 
-[Back to Table of Contents](#table-of-contents)
+<a href="#">&#9650;Back</a>
 
 # Usage
 <div style="margin-bottom: 20px;">
@@ -88,12 +88,12 @@ This command will initiate the DataCrawler to efficiently crawl the website, dow
 
 **Note**:Both commands can be used separately depending on your needs. You can run `scrape_posts_links` first to collect the post links and then run `scrape_posts_data` to download the content and generate PDFs.
 
-[Back to Table of Contents](#table-of-contents)
+<a href="#">&#9650;Back</a>
 
 # Logging
 The project implements a comprehensive logging mechanism to provide insights into different aspects of the application's functionality. The logging system employs four separate loggers:
 
-- **data_crawler_logger**: This logger records and saves logs specific to the DataCrawler class. It captures and stores information related to data crawling processes and post content extraction.
+- **data_crawler_logger**: This logger records and saves logs specific to the DataCrawler class. It captures and stores information related to data crawling processes and post-content extraction.
 
 - **link_crawler_logger**: The link_crawler_logger is dedicated to the LinkCrawler class. It shows and saves logs during the process of crawling and extracting post links from the website.
 
@@ -110,7 +110,7 @@ Each logger saves its respective logs to separate log files. Here's a breakdown 
 - link_crawling_logs.txt: Contains logs specific to the LinkCrawler class.
 - conversion_logs.txt: Stores logs related to the conversion of .html files to .pdf files.
 - change_filename_logs.txt: Contains logs for file renaming operations.
-All these logs will be saved in `Logs` directory as follows:
+All these logs will be saved in the `Logs` directory as follows:
 
 
   <div style="margin-bottom: 20px;">
@@ -119,7 +119,7 @@ All these logs will be saved in `Logs` directory as follows:
 </div>
 <br>
 
-[Back to Table of Contents](#table-of-contents)
+<a href="#">&#9650;Back</a>
 
 # html code template content:
 The `template_html_code.html` code is as follows:
@@ -173,4 +173,4 @@ The `template_html_code.html` code is as follows:
     
         
 ```
-[Back to Table of Contents](#table-of-contents)
+<a href="#">&#9650;Back</a>
