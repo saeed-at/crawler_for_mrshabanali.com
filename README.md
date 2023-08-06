@@ -15,7 +15,7 @@ The LinkCrawler efficiently navigates through the website, extracting all post l
 - [Requirements](#requirements)
 - [Configuration](#configuration)
 - [Usage](#usage)
-    - [Scrape Post Links](-scrape-post-links)
+    - [Scrape Post Links](#scrape-post-links)
     - [Scrape Post Data](#scrape-post-data)
 - [Logging](#logging)
 - [HTML code template content](#html-code-template-content)
