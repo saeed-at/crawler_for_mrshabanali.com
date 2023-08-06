@@ -32,6 +32,8 @@ The LinkCrawler efficiently navigates through the website, extracting all post l
 </div>
 <br>
 
+[Back to Table of Contents](#table-of-contents)
+
 # Requirements
 Ensure you have the required libraries installed by running the following command:
 ```bash
@@ -40,12 +42,16 @@ pip install -r requirements.txt
 
 **Note**:To convert HTML to PDF, download and install PrinceXML from the official website for your operating system.
 
+[Back to Table of Contents](#table-of-contents)
+
 # Configuration
 Before running the scripts, you need to configure the config.py file to match your settings:
 - `BASE_LINK`: Set the first-page address of the site.
 - `STORE_PATH`: Set the storing path for saving URLs' JSON file.
 - `HTML_OUTPUT_CODES`: Set the storing path for generated HTML codes for each URL.
 - `PDF_DIR`: Set the storing path to save PDF files for each URL.
+
+[Back to Table of Contents](#table-of-contents)
 
 # Usage
 <div style="margin-bottom: 20px;">
@@ -82,6 +88,8 @@ This command will initiate the DataCrawler to efficiently crawl the website, dow
 
 **Note**:Both commands can be used separately depending on your needs. You can run `scrape_posts_links` first to collect the post links and then run `scrape_posts_data` to download the content and generate PDFs.
 
+[Back to Table of Contents](#table-of-contents)
+
 # Logging
 The project implements a comprehensive logging mechanism to provide insights into different aspects of the application's functionality. The logging system employs four separate loggers:
 
@@ -110,6 +118,8 @@ All these logs will be saved in `Logs` directory as follows:
     </a>
 </div>
 <br>
+
+[Back to Table of Contents](#table-of-contents)
 
 # html code template content:
 The `template_html_code.html` code is as follows:
@@ -163,4 +173,4 @@ The `template_html_code.html` code is as follows:
     
         
 ```
-<a id="back-to-top" href="#">&#9650;</a>
+[Back to Table of Contents](#table-of-contents)
