@@ -55,7 +55,6 @@ Before running the scripts, you need to configure the config.py file to match yo
 
 # Usage
 <div style="margin-bottom: 20px;">
-    <a href="https://mrshabanali.com">
         <img src="./images/before_and_after.png" alt="header" width="100%" />
     </a>
 </div>
